@@ -9,7 +9,6 @@
 
 **A sleek, real-time image classifier powered by Convolutional Neural Networks**
 
-
 </div>
 
 ---
@@ -95,15 +94,26 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4️⃣ **Add your trained model**
+4️⃣ **Download the trained model**
 
-> ⚠️ **Important**: Due to GitHub's 100MB file limit, you need to add `model.h5` manually.
+> ⚠️ **Important**: Due to GitHub's 100MB file limit, the model is hosted separately.
 
-Place your trained model in the project root:
+**📥 [Download model.h5 from Google Drive](YOUR_GOOGLE_DRIVE_LINK_HERE)**
+
+Place the downloaded `model.h5` file in the project root:
 ```
 Dog-Cat-classifier-CNN/
-├── model.h5  ← Place your model here
+├── model.h5  ← Place downloaded model here
 └── ...
+```
+
+Alternatively, download via command line:
+```bash
+# Install gdown
+pip install gdown
+
+# Download model (replace FILE_ID with your Google Drive file ID)
+gdown https://drive.google.com/uc?id=FILE_ID
 ```
 
 5️⃣ **Run the application**
