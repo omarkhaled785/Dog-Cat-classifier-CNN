@@ -66,7 +66,7 @@ Dog-Cat-classifier-CNN/
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Python 3.10 or higher
+- Python 3.10 or 3.11
 - Git
 
 ### Installation
@@ -97,7 +97,7 @@ pip install -r requirements.txt
 
 > ⚠️ **Important**: Due to GitHub's 100MB file limit, the model is hosted separately.
 
-**📥 [Download model.h5 from Google Drive](https://drive.google.com/drive/u/0/folders/1kTen7l089GsR_EgJGBxgAT-SnM5gyxHb)**
+**📥 [Download model.h5 from Google Drive](https://drive.google.com/drive/folders/1kTen7l089GsR_EgJGBxgAT-SnM5gyxHb)**
 
 Place the downloaded `model.h5` file in the project root:
 ```
@@ -105,6 +105,7 @@ Dog-Cat-classifier-CNN/
 ├── model.h5  ← Place downloaded model here
 └── ...
 ```
+
 
 5️⃣ **Run the application**
 ```bash
@@ -189,7 +190,15 @@ The classifier uses a Convolutional Neural Network (CNN) with:
 - Dense layers for classification
 - Softmax activation for probability output
 
-## 📊 Performance
+## 📊 Dataset
+
+This model was trained using the **Dog and Cat Classification Dataset** from Kaggle:
+
+**🔗 [Download Dataset from Kaggle](https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset)**
+
+The dataset contains thousands of labeled images of dogs and cats, split into training and validation sets for optimal model performance.
+
+## 📈 Performance
 
 | Metric | Score |
 |--------|-------|
@@ -205,7 +214,6 @@ Contributions are welcome! Feel free to:
 - 🐛 Report bugs
 - 💡 Suggest features
 - 🔧 Submit pull requests
-
 
 ## 👨‍💻 Author
 
