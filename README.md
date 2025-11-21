@@ -97,7 +97,7 @@ pip install -r requirements.txt
 
 > ⚠️ **Important**: Due to GitHub's 100MB file limit, the model is hosted separately.
 
-**📥 [Download model.h5 from Google Drive](YOUR_GOOGLE_DRIVE_LINK_HERE)**
+**📥 [Download model.h5 from Google Drive](https://drive.google.com/drive/u/0/folders/1kTen7l089GsR_EgJGBxgAT-SnM5gyxHb)**
 
 Place the downloaded `model.h5` file in the project root:
 ```
