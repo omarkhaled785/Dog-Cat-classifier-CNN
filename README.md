@@ -106,15 +106,6 @@ Dog-Cat-classifier-CNN/
 └── ...
 ```
 
-Alternatively, download via command line:
-```bash
-# Install gdown
-pip install gdown
-
-# Download model (replace FILE_ID with your Google Drive file ID)
-gdown https://drive.google.com/uc?id=FILE_ID
-```
-
 5️⃣ **Run the application**
 ```bash
 python app.py
