@@ -5,7 +5,6 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0+-orange.svg)
 ![Flask](https://img.shields.io/badge/Flask-2.0+-green.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 **A sleek, real-time image classifier powered by Convolutional Neural Networks**
 
