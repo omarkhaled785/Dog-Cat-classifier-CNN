@@ -9,7 +9,6 @@
 
 **A sleek, real-time image classifier powered by Convolutional Neural Networks**
 
-[Live Demo](#-demo) • [Features](#-features) • [Installation](#-quick-start) • [Deploy](#-deployment)
 
 </div>
 
@@ -207,9 +206,6 @@ Contributions are welcome! Feel free to:
 - 💡 Suggest features
 - 🔧 Submit pull requests
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
