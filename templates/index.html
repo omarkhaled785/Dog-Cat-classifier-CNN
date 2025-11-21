@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog vs Cat Classifier</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🐶 🐱 Pet Classifier</h1>
+        <p class="subtitle">Upload an image to classify if it's a dog or cat</p>
+
+        <div class="upload-area" id="uploadArea">
+            <div class="upload-icon">📷</div>
+            <p><strong>Click to upload</strong> or drag and drop</p>
+            <p style="font-size: 0.9em; color: #666; margin-top: 10px;">PNG, JPG up to 10MB</p>
+            <input type="file" id="fileInput" accept="image/*">
+        </div>
+
+        <div class="preview-container" id="previewContainer">
+            <img id="imagePreview" alt="Preview">
+            <button id="classifyBtn">Classify Image</button>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p style="margin-top: 10px;">Analyzing image...</p>
+        </div>
+
+        <div class="error" id="error"></div>
+
+        <div class="result" id="result">
+            <h2 id="predictionText"></h2>
+            <p class="confidence" id="confidenceText"></p>
+        </div>
+    </div>
+
+    <script src="../static/js/app.js">
+        
+    </script>
+</body>
+</html>
